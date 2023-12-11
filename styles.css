@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif; */
+}
+
+.banner-container {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    width: 1600px;
+    height: 800px;
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.section-heading {
+    color: #272727;
+    font-size: 50px;
+    font-weight: 700;
+    width: 600px;
+
+}
+
+.banner-img {
+    margin-right: 200px;
+}
