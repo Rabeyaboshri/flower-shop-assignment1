@@ -70,8 +70,8 @@ body {
 
 }
 
-.banner-description button {
-    padding: 20px 30px;
+button{
+    padding: 10px 20px;
     gap: 10px;
     border-radius: 8px;
     background: #E55473;
@@ -90,8 +90,8 @@ body {
 .purple {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    width: 300px;
-    height: 430px;
+    width: 280px;
+    height: 320px;
     padding: 110px 78px 0px 76px;
     /* margin: 0px 15px 0px 240px ; */
     margin-right: 15px;
@@ -101,8 +101,8 @@ body {
 .bouquet {
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
-    width: 300px;
-    height: 430px;
+    width: 280px;
+    height: 320px;
     padding: 100px 47px 10px 47px;
     margin-right: 15px;
 
@@ -111,10 +111,17 @@ body {
 .yellow {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
-    width: 300px;
-    height: 430px;
+    width: 280px;
+    height: 320px;
     padding: 110px 55px 0px 55px;
     margin-right: 240px;
+}
+
+.Features {
+    max-width: 950px;
+    /* margin-left: 300px; */
+    /* margin-right: 300px; */
+    margin: 0px auto;
 }
 
 .Feature {
@@ -133,5 +140,127 @@ body {
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
-    margin: 0px 300px 0px 300px;
+    /* margin: 0px 300px 0px 300px; */
+    row-gap: 360px;
+    margin-top: 10px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.icons-title {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    gap: 40px;
+}
+
+.facilities {
+    max-width: 1120px;
+    margin: 100px auto 10px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1440px;
+    height: 150px;
+    padding-top: 45px;
+}
+
+.icons img {
+    width: 66px;
+    height: 66px;
+
+}
+
+.icons-title .it2 {
+    margin-right: 80px;
+
+}
+
+.icons-title .it3 {
+    margin-right: 60px;
+}
+
+span {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 25px;
+}
+
+.Deal {
+    color: #272727;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    /* padding-top: 150px; */
+}
+
+.detailes {
+    color: rgba(39, 39, 39, 0.60);
+    /* text-align: center; */
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 10px;
+    /* 166.667% */
+}
+.hot-deal{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin: 80px 0px;
+}
+.Hot-deal-detailes{
+    width: 594px;
+    text-align: center;
+    padding-top: 180px;
+}
+.hot-deal img{
+    width: 250px;
+    height: 300px;
+    /* padding-right: 150px; */
+    /* padding-top: 100px; */
+    padding: 100px 150px 30px 0px;
+}
+.flowers{
+    display: flex;
+    justify-content: space-around;
+    max-width: 950px;
+    margin: 30px auto 100px;
+    gap: 15px;
+}
+.flowers img{
+    width: 300px;
+    height: 320px;
+
+}
+#Email{
+    width: 500px;
+    height: 40px;
+    border-radius: 8px;
+    background: #FFF;
+    padding-left: 50px;
+
+}
+.email-button{
+    /* display: inline; */
+    text-align: center;
+    gap: 18px;
+    margin-top: 40px;
+}
+.subscribe-section{
+    margin-top: 150px;
+    border-radius: 8px;
+    background: url(Rectangle\ 9.png), lightgray ;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    width: 1150px;
+    height: 200px;
+    margin: 0px auto;
 }
