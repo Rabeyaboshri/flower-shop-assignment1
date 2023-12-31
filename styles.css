@@ -70,7 +70,7 @@ body {
 
 }
 
-button{
+button {
     padding: 10px 20px;
     gap: 10px;
     border-radius: 8px;
@@ -208,7 +208,8 @@ span {
     margin-bottom: 10px;
     /* 166.667% */
 }
-.hot-deal{
+
+.hot-deal {
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     display: flex;
@@ -216,31 +217,36 @@ span {
     gap: 50px;
     margin: 80px 0px;
 }
-.Hot-deal-detailes{
+
+.Hot-deal-detailes {
     width: 594px;
     text-align: center;
     padding-top: 180px;
 }
-.hot-deal img{
+
+.hot-deal img {
     width: 250px;
     height: 300px;
     /* padding-right: 150px; */
     /* padding-top: 100px; */
     padding: 100px 150px 30px 0px;
 }
-.flowers{
+
+.flowers {
     display: flex;
     justify-content: space-around;
     max-width: 950px;
     margin: 30px auto 100px;
     gap: 15px;
 }
-.flowers img{
+
+.flowers img {
     width: 300px;
     height: 320px;
 
 }
-#Email{
+
+#Email {
     width: 500px;
     height: 40px;
     border-radius: 8px;
@@ -248,19 +254,58 @@ span {
     padding-left: 50px;
 
 }
-.email-button{
+
+.email-button {
     /* display: inline; */
     text-align: center;
-    gap: 18px;
+    gap: 25px;
     margin-top: 40px;
 }
-.subscribe-section{
+
+.subscribe-section {
     margin-top: 150px;
     border-radius: 8px;
-    background: url(Rectangle\ 9.png), lightgray ;
+    background: url(Rectangle\ 9.png), lightgray;
     background-repeat: no-repeat;
     padding-top: 100px;
     width: 1150px;
     height: 200px;
     margin: 0px auto;
+}
+
+/* footer section styles */
+.footer {
+    /* width: 1922px; */
+    height: 350px;
+    background: #111010;
+    margin-top: 80px;
+
+}
+
+.footer .section-description {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* background: #111010; */
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footer .section-heading {
+    color: #FFF;
+    font-family: Lato;
+    font-weight: 800;
+    padding-top: 100px;
+}
+
+.footer p {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
 }
